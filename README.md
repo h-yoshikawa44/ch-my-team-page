@@ -8,10 +8,10 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://{your-demo-link.your-domain}">
+    <a href="https://h-yoshikawa44.github.io/ch-my-team-page/">
       Demo
     </a>
-    <span> | </span> -->
+    <span> | </span>
     <!-- <a href="https://{your-url-to-the-solution}">
       Solution
     </a>
@@ -28,8 +28,11 @@
 
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+  - [Desktop](#desktop)
+  - [Mobile](#mobile)
   - [Built With](#built-with)
 - [Features](#features)
+- [learned/improved](#learnedimproved)
 - [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 
@@ -37,7 +40,13 @@
 
 ## Overview
 
-(※in preparation)
+### Desktop
+
+![overview - desktop](/screenshots/desktop.png)
+
+### Mobile
+
+<img src="/screenshots/mobile.png" alt="overview - mobile" width="35%">
 
 ### Built With
 
@@ -46,19 +55,25 @@
 - [HTML](https://developer.mozilla.org/ja/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/ja/docs/Web/CSS)
 
+※The npm library was only used for syntax checking and formatting.
+
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
-- [ ] User story: I can see a page following the given design
+- [x] User story: I can see a page following the given design
+
+## learned/improved
+
+- Now I know how to use :nth-child.
 
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
 
-(※in preparation)
+- [HTML5＆CSS3 デザイン　現場の新標準ガイド【第２版】 ※book](https://book.mynavi.jp/ec/products/detail/id=117364)
 
 ## Contact
 
