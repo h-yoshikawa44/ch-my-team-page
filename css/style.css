@@ -108,13 +108,11 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 24px;
-  -moz-column-gap: 40px;
   column-gap: 40px;
 }
 
 .member-list__member {
   display: flex;
-  -moz-column-gap: 8px;
   column-gap: 8px;
 }
 
@@ -136,10 +134,8 @@ main {
   line-height: 16px;
   color: var(--black);
   text-transform: uppercase;
-  -webkit-writing-mode: vertical-rl;
-  -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
-  -webkit-text-orientation: sideways;
+  writing-mode: tb-rl;
   text-orientation: sideways;
 }
 
@@ -222,7 +218,6 @@ main {
   }
 
   .member-list__member {
-    -moz-column-gap: 4px;
     column-gap: 4px;
   }
 
