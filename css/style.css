@@ -61,7 +61,7 @@ main {
   margin-top: 80px;
 }
 
-.header__block {
+.header__layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -156,10 +156,10 @@ main {
   color: var(--gray);
 }
 
-/* desktop only style
+/* tablet~desktop only style
 -------------------- */
 
-@media (min-width: 601px) {
+@media (min-width: 600px) {
   /* main */
 
   .member-list > :not(:nth-child(3n + 2)) {
@@ -171,10 +171,26 @@ main {
   }
 }
 
+/* tablet style
+-------------------- */
+@media (max-width: 959px) {
+  /* common */
+
+  .container {
+    padding: 0 8%;
+  }
+
+  /* main */
+
+  .member-list {
+    column-gap: 24px;
+  }
+}
+
 /* mobile style
 -------------------- */
 
-@media (max-width: 600px) {
+@media (max-width: 599px) {
   /* common */
 
   .container {
