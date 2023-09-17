@@ -159,7 +159,7 @@ main {
 /* tablet~desktop only style
 -------------------- */
 
-@media (min-width: 600px) {
+@media (width >= 600px) {
   /* main */
 
   .member-list > :not(:nth-child(3n + 2)) {
@@ -173,7 +173,7 @@ main {
 
 /* tablet style
 -------------------- */
-@media (max-width: 959px) {
+@media (width <= 959px) {
   /* common */
 
   .container {
@@ -190,7 +190,7 @@ main {
 /* mobile style
 -------------------- */
 
-@media (max-width: 599px) {
+@media (width <= 599px) {
   /* common */
 
   .container {
