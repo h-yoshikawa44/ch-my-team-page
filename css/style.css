@@ -107,8 +107,7 @@ main {
 .member-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 24px;
-  column-gap: 40px;
+  gap: 24px 40px;
 }
 
 .member-list__member {
