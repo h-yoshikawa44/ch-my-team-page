@@ -60,7 +60,9 @@ Base
 - [Node.js](https://nodejs.org/)：22.13.1
 - [Vite](https://ja.vitejs.dev/)：4.4.9
 
-※The npm library was only used for syntax checking and formatting.
+Other major libraries
+
+- [postcss-preset-env](https://github.com/csstools/postcss-plugins/tree/main/plugin-packs/postcss-preset-env)
 
 ## Features
 
