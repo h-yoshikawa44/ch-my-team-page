@@ -6,8 +6,9 @@
   --gray: #a9a9a9;
 
   /* stylelint-disable value-keyword-case */
-  --font-base: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  --font-base:
+    -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   --font-pt-serif: PT Serif, sans-serif;
   --font-poppins: Poppins, sans-serif;
   /* stylelint-enable value-keyword-case */
@@ -113,6 +114,10 @@ main {
 .member-list__member {
   display: flex;
   column-gap: 8px;
+}
+
+.member-list__image {
+  height: auto;
 }
 
 .member-list__member-name {
